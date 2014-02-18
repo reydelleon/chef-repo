@@ -11,3 +11,8 @@ chef_server_url          "https://api.opscode.com/organizations/daida"
 cache_type               'BasicFile'
 cache_options( :path => "#{ENV['HOME']}/.chef/checksums" )
 cookbook_path            ["#{current_dir}/../cookbooks"]
+
+# AWS credentials
+knife[:aws_access_key_id] = 'ACCESS_KEY_ID'
+knife[:aws_ssh_key_id] = 'Node Server'
+knife[:aws_secret_access_key] = 'SECRET_ACCESS_KEY'
