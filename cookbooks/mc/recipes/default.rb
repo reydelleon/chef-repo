@@ -8,6 +8,6 @@
 #
 
 # Installs Midnight Commander
-package "mc" do
+package node["package_name"] do
 	action :install
 end
