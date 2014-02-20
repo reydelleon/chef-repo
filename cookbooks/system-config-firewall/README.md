@@ -1,24 +1,24 @@
-pm2 Cookbook
-============
+system-config-firewall Cookbook
+===============================
+TODO: Enter the cookbook description here.
 
-Installs pm2 process manager for Node.JS apps.
+e.g.
+This cookbook makes your favorite breakfast sandwich.
 
 Requirements
 ------------
+TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
 
-### Platforms
-
-
-### Cookbooks
-The following cookbooks are direct dependencies because they're used for common "default" functionality.
-- nodejs (Installed from source. Might fail otherwise.)
+e.g.
+#### packages
+- `toaster` - system-config-firewall needs toaster to brown your bagel.
 
 Attributes
 ----------
 TODO: List your cookbook attributes here.
 
 e.g.
-#### pm2::default
+#### system-config-firewall::default
 <table>
   <tr>
     <th>Key</th>
@@ -27,7 +27,7 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['pm2']['bacon']</tt></td>
+    <td><tt>['system-config-firewall']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -36,17 +36,17 @@ e.g.
 
 Usage
 -----
-#### pm2::default
+#### system-config-firewall::default
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `pm2` in your node's `run_list`:
+Just include `system-config-firewall` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[pm2]"
+    "recipe[system-config-firewall]"
   ]
 }
 ```
