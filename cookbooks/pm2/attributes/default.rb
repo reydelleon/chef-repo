@@ -1,4 +1,4 @@
-default['pm2']['version'] = '0.5.7'
+default['pm2']['version'] = 'latest'
 default['node-gyp']['version'] = '0.10.6'
 
 case node['platform_family']
